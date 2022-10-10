@@ -1,0 +1,22 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "files.associations": {
+    "param.h": "c",
+    "wifi.h": "c",
+    "mqtt_lib.h": "c",
+    "mqtt_client.h": "c",
+    "cjson.h": "c",
+    "memory_resource": "c",
+    "htu21.h": "c",
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "i2c.h": "c",
+    "esp_event.h": "c",
+    "esp_wifi.h": "c",
+    "*.ipp": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.portWin": "COM8",
+  "idf.adapterTargetName": "esp32"
+}
