@@ -14,6 +14,6 @@ Por otro lado, se encuentra de manera libre, el software utilizado para implemen
 Además, se han diseñado bibliotecas específicas para cada sensor desde cero, dado que la mayoría de los sensores utilizados no se encontraban implementados con ESP32, sino mas bien en Arduino. 
 
 
-<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/a.jpg?raw=true" width=25% height=25%> <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/d.jpg?raw=true" width=25% height=25%>
+<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/a.jpg?raw=true" width=25% height=25%> <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/d.jpg?raw=true" width=25% height=25%> <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/b.jpg?raw=true" width=25% height=25%> 
 
-<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/b.jpg?raw=true" width=25% height=25%> <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/c.jpg?raw=true" width=75% height=75%> 
+<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/c.jpg?raw=true"> 
