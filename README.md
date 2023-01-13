@@ -1,32 +1,11 @@
-# _Sample project_
+# AirQuality
+AirQuality es un proyecto realizado en 5to año de la carrera de ingeniería electrónica. Se trata de un proyecto realizado para la materia de "Taller de Sistemas Digitales".
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+AirQuality es un dispositivo IoT capaz de adquirir variables ambientales tales como lo son la temperatura, la humedad, la luminosidad, y el CO2 presente en una sala para luego transmitirlos por WiFi vía MQTT a un servidor IoT como lo es BeeBotte. 
 
 
+## ¿Qué documentos encontraré en este repositorio?
+En el presente repositorio se encuentra principalmente el informe final presentado a los profesores de la cátedra. En dicho informe se detalla la manera en la que se trabajó, el motivo de la selección de los sensores y microcontrolador, el funcionamiento, y las conclusiones. 
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
-
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+Por otro lado, se encuentra de manera libre, el software utilizado para implementar dicho dispositivo. AirQuality se programó integramente en lenguaje C utilizando el microcontrolador ESP32 y las API que ofrece Espressif.
+Además, se han diseñado bibliotecas específicas para cada sensor desde cero, dado que la mayoría de los sensores utilizados no se encontraban implementados con ESP32, sino mas bien en Arduino. 
