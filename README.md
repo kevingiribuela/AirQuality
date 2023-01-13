@@ -13,3 +13,8 @@ En el presente repositorio se encuentra principalmente el informe final presenta
 Por otro lado, se encuentra de manera libre, el software utilizado para implementar dicho dispositivo. AirQuality se programó integramente en lenguaje C utilizando el microcontrolador ESP32 y las API que ofrece Espressif.
 Además, se han diseñado bibliotecas específicas para cada sensor desde cero, dado que la mayoría de los sensores utilizados no se encontraban implementados con ESP32, sino mas bien en Arduino. 
 
+
+<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/a.jpg?raw=true">
+<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/b.jpg?raw=true">
+<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/c.jpg?raw=true">
+<img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/d.jpg?raw=true">
