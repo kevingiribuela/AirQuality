@@ -1,7 +1,10 @@
 # AirQuality
-AirQuality es un proyecto realizado en 5to año de la carrera de ingeniería electrónica. Se trata de un proyecto realizado para la materia de "Taller de Sistemas Digitales".
 
-AirQuality es un dispositivo IoT capaz de adquirir variables ambientales tales como lo son la temperatura, la humedad, la luminosidad, y el CO2 presente en una sala para luego transmitirlos por WiFi vía MQTT a un servidor IoT como lo es BeeBotte. 
+AirQuality es un dispositivo capaz de medir variables ambientales como humedad, temperatura, luminosidad, y nivel CO2. Para permitir una visualización de datos amigable, los mismos se envían, usando MQTT, a la plataforma IoT Beebotte en donde se ha diseñado un dashboard para tales variables.
+
+El corazón del proyecto es el ampliamente difundido ESP32. En él se ha desarrollado el código en C que permite que todo funcione correctamente. Para ello se hace funcionar al ESP32 en modo AP generando un webserver donde se le puedan ingresar los datos de la red a la que deba conectarse como STA para poder enviar los datos adquiridos por los sensores
+
+Se trata de un proyecto realizado en 5to año de la carrera de ingeniería electrónica.
 
 
 ## ¿Qué documentos encontraré en este repositorio?
@@ -9,3 +12,4 @@ En el presente repositorio se encuentra principalmente el informe final presenta
 
 Por otro lado, se encuentra de manera libre, el software utilizado para implementar dicho dispositivo. AirQuality se programó integramente en lenguaje C utilizando el microcontrolador ESP32 y las API que ofrece Espressif.
 Además, se han diseñado bibliotecas específicas para cada sensor desde cero, dado que la mayoría de los sensores utilizados no se encontraban implementados con ESP32, sino mas bien en Arduino. 
+
