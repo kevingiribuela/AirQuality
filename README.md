@@ -15,4 +15,5 @@ Además, se han diseñado bibliotecas específicas para cada sensor desde cero, 
 
 
 <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/a.jpg?raw=true" width=25% height=25%> <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/d.jpg?raw=true" width=25% height=25%>
+
 <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/b.jpg?raw=true" width=25% height=25%> <img src="https://github.com/kevingiribuela/AirQuality/blob/main/Imagenes/c.jpg?raw=true" width=25% height=25%> 
